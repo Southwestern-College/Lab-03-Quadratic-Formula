@@ -1,9 +1,10 @@
-# Project 2: Quadratic Equation
+# Lab 02: Quadratic Equation
 
 ### OBJECTIVES  
 - Read data from the keyboard.  
 - Use arithmetic operators.  
-- Use conditional logic (`if`, `else`, and `else if`).  
+- Use conditional logic (`if`, `else`, and `else if`).
+- Format outpus using `printf`
 
 ### PROGRAM DESCRIPTION  
 The quadratic formula provides the solution(s) to a quadratic equation of the form:  
@@ -37,7 +38,7 @@ For this program, you will prompt the user to enter the coefficients of a quadra
    - Declare three `double` variables: `a`, `b`, and `c`.  
    - Prompt the user to enter a value for each coefficient and assign them to `a`, `b`, and `c`.  
    - If `a == 0`, display an error message and terminate the program. Otherwise, use the discriminant method to determine and display the number and type of solutions.  
-   - Find the solution(s) using the quadratic formula and display them using `printf`, rounded to four decimal places.  
+   - Find the solution(s) using the quadratic formula and display them using `printf`, rounded to four decimal places. Read the [`printf` cheat sheet](printf-cheat-sheet.md) for more info.
 
 ## SAMPLE OUTPUT
 ```
