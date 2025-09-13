@@ -44,17 +44,39 @@ For this program, you will prompt the user to enter the coefficients of a quadra
 ```
 This program solves a quadratic equation in standard form ax^2 + bx + c = 0
 
-Please enter the following: Quadratic coefficient a: 1 Linear coefficient b: 2 Constant c: 3
+Please enter the following:
+Quadratic coefficient a:
+1
+Linear coefficient b:
+2
+Constant c:
+3
 
-The quadratic equation has two complex solutions: x = -1.0000 + 1.4142i x = -1.0000 – 1.4142i
+The quadratic equation has two complex solutions:
+x_1 = -1.0000 + 1.4142i
+x_2 = -1.0000 – 1.4142i
+```
+```
+Quadratic coefficient a:
+1
+Linear coefficient b:
+2
+Constant c:
+1
 
-Quadratic coefficient a: 1 Linear coefficient b: 2 Constant c: 1
+The quadratic equation has one real solution:
+x = -1.0000
+```
+```
+Quadratic coefficient a:
+1
+Linear coefficient b:
+3 Constant c:
+2
 
-The quadratic equation has one real solution: x = -1.0000
-
-Quadratic coefficient a: 1 Linear coefficient b: 3 Constant c: 2
-
-The quadratic equation has two real solutions: x = -2.0000 x = -1.0000
+The quadratic equation has two real solutions:
+x_1 = -2.0000
+x_2 = -1.0000
 ```
 
 ## CODING STANDARDS  
