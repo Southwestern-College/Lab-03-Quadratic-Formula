@@ -71,7 +71,8 @@ x = -1.0000
 Quadratic coefficient a:
 1
 Linear coefficient b:
-3 Constant c:
+3
+Constant c:
 2
 
 The quadratic equation has two real solutions:
