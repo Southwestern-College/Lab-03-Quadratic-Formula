@@ -1,4 +1,4 @@
-# Lab 02: Quadratic Equation
+# Lab 03: Quadratic Equation
 
 ### OBJECTIVES  
 - Read data from the keyboard.  
