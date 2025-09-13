@@ -89,10 +89,9 @@ System.out.printf("Name: %s, Age: %d, GPA: %.2f%n", name, age, gpa);
 ## Practice Examples
 
 ```java
-System.out.printf("Pi approx: %.2f%n", 3.14159);   // Pi approx: 3.14
-System.out.printf("Value: %08d%n", 123);           // Value: 00000123
-System.out.printf("|%-10s|%10s|%n", "left", "right");
-// |left      |     right|
+System.out.printf("Pi approx: %.2f%n", 3.14159);      // Pi approx: 3.14
+System.out.printf("Value: %08d%n", 123);              // Value: 00000123
+System.out.printf("|%-10s|%10s|%n", "left", "right"); // |left      |     right|
 ```
 
 ---
