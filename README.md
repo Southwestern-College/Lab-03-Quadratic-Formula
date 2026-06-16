@@ -1,41 +1,95 @@
-# Lab 00: Lab_Name
+# Lab 03: Quadratic Equation
 
-## Objectives
-- Objective
+### OBJECTIVES
+- Read data from the keyboard.
+- Use arithmetic operators.
+- Use conditional logic (`if`, `else`, and `else if`).
+- Format outpus using `printf`
 
-## Program Description
-Lorem ipsum.
+### PROGRAM DESCRIPTION
+The quadratic formula provides the solution(s) to a quadratic equation of the form:
 
-## Instructions
-1. Instruction
+$$
+ax^2 + bx + c = 0, \quad a \neq 0
+$$
 
-## Program Specifications
-- Specification
+The formula is given by:
 
-## Sample Code
-```java
-public class ClassName {
-    public static void main(String[] args) {
-        System.out.println("output");
-    }
-}
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+The discriminant of the quadratic equation is:
+
+$$
+b^2 - 4ac
+$$
+
+- If $b^2 - 4ac > 0$, then there are **two real solutions**.
+- If $b^2 - 4ac = 0$, then there is **one real solution**.
+- If $b^2 - 4ac < 0$, then there are **two complex solutions**.
+
+For this program, you will prompt the user to enter the coefficients of a quadratic equation, determine the number and type of solutions, and then find and display the solution(s).
+
+## PROGRAM SPECIFICATIONS
+1. Create a new class called `QuadraticSolver`.
+2. In the `main` method, implement the following:
+  - Declare a `Scanner` variable called `input`.
+  - Declare three `double` variables: `a`, `b`, and `c`.
+  - Prompt the user to enter a value for each coefficient and assign them to `a`, `b`, and `c`.
+  - If `a == 0`, display an error message and terminate the program. Otherwise, use the discriminant method to determine and display the number and type of solutions.
+  - Find the solution(s) using the quadratic formula and display them using `printf`, rounded to four decimal places. Read the `printf` [cheat sheet](printf-cheat-sheet.md) for more info.
+
+## SAMPLE OUTPUT
+```
+This program solves a quadratic equation in standard form ax^2 + bx + c = 0
+
+Please enter the following:
+Quadratic coefficient a:
+1
+Linear coefficient b:
+2
+Constant c:
+3
+
+The quadratic equation has two complex solutions:
+x_1 = -1.0000 + 1.4142i
+x_2 = -1.0000 – 1.4142i
+```
+```
+Quadratic coefficient a:
+1
+Linear coefficient b:
+2
+Constant c:
+1
+
+The quadratic equation has one real solution:
+x = -1.0000
+```
+```
+Quadratic coefficient a:
+1
+Linear coefficient b:
+3
+Constant c:
+2
+
+The quadratic equation has two real solutions:
+x_1 = -2.0000
+x_2 = -1.0000
 ```
 
-## Sample Output
-```
-output
-```
-
-## Coding Standards
+## CODING STANDARDS
 - Follow the program specifications exactly.
 - Use meaningful identifiers and follow Java naming conventions.
 - Remove all auto-generated comments and unused code.
 - Document code using [JavaDoc](https://www.baeldung.com/javadoc), including:
-   - Program/class description
-   - Attribution using the `@author` tag.
+  - Program/class description
+  - Attribution using the `@author` tag.
 - Comment only when necessary.
 - Format code cleanly and consistently
-   - Proper indentation
-   - Brace alignment
-   - Whitespace for readability
+  - Proper indentation
+  - Brace alignment
+  - Whitespace for readability
 - Ensure prompts and output are clear and properly formatted.
